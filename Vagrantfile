@@ -26,10 +26,4 @@ Vagrant.configure(2) do |config|
      cd /vagrant/testsite; jekyll serve -P 8082 -H 0.0.0.0 --detach
      
   SHELL
-  
-  
-  #config.vm.provision :shell,
-  #  :inline => "sudo apt-get update && sudo apt-get -y install build-essential git ruby1.9.3 && sudo gem install github-pages therubyracer --no-ri --no-rdoc"
-
-  #config.ssh.forward_agent = true
 end
