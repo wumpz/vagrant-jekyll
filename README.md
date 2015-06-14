@@ -16,3 +16,4 @@ To start jekyll manually start within the directory you edit your jekyll site:
 jekyll serve -P 8082 -H 0.0.0.0
 ~~~
 
+To change to forwared port one has to edit *Vagrantfile*.
