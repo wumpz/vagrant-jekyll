@@ -36,7 +36,7 @@ Vagrant.configure(2) do |config|
      jekyll new /vagrant/testsite
      
      # simple start jekyll on testsite
-     cd /vagrant/testsite; jekyll serve -P 8082 -H 0.0.0.0 --detach
+     cd /vagrant/testsite; jekyll serve -P 4000 -H 0.0.0.0 --detach
      
   SHELL
 end
